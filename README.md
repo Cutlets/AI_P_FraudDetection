@@ -5,12 +5,12 @@
 1_1 : 제출본
 1_1(2) : 테스트 데이터셋 오류를 수정했습니다.....
 
-# Undersamping the test data
+'# Undersamping the test data
 df_xt_s, df_yt_s = RandomUnderSampler(random_state=0).fit_resample(df_x, df_y)
 
 =>
 
-# Undersamping the test data
+'# Undersamping the test data
 df_xt_s, df_yt_s = RandomUnderSampler(random_state=0).fit_resample(df_xt, df_yt)
 
 
